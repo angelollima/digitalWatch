@@ -1,0 +1,39 @@
+body  {
+    height: 100vh;
+    background: linear-gradient(130deg, #3e3a4ec9, #1f7f97da);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.watch {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 440px;
+    height: 160px;
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 1px solid rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.14);
+    backdrop-filter: blur(10px);
+    border-radius: 32px;
+    padding: 0px 10px;
+}
+
+.watch div {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 90px;
+    height: 120px;
+    color: #000;
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, .7);
+    border-radius: 7px;
+    letter-spacing: 3px;
+}
+
+.watch span {
+    font-size: 40px;
+}
