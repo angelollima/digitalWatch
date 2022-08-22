@@ -11,9 +11,9 @@ const relogio = setInterval(function time() {
     let turn = '';
 
     function formato(hr) {
-        if (hr > 23) {
+        if (hr < 12) {
             turn = "Am"
-        } else if (hr > 12) {
+        } else if (hr >= 12) {
             turn = "Pm"
         }
         return turn;
